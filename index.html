@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Calculator</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+	<div class="calculator">
+		<p class="calculator-message">
+			<i class="fa fa-signal"></i> 4G <i class="fa fa-battery full"></i>
+		</p>
+		<input type="text" class="calculator-screen" disabled />
+		<div class="calculator-keys">
+			<div class="row">
+				<button class="power-btn"><i class="fa fa-power-off"></i></button>
+				<button class="all-clear">AC</button>
+				<button class="percentage">%</button>
+				<button class="operator" value="/">&divide;</button>
+			</div>
+
+			<div class="row">
+				<button class="number" value="7">7</button>
+				<button class="number" value="8">8</button>
+				<button class="number" value="9">9</button>
+				<button class="operator" value="*">&times</button>
+			</div>
+
+			<div class="row">
+				<button class="number" value="4">4</button>
+				<button class="number" value="5">5</button>
+				<button class="number" value="6">6</button>
+				<button class="operator" value="-">-</button>
+			</div>
+
+			<div class="row">
+				<button class="number" value="1">1</button>
+				<button class="number" value="2">2</button>
+				<button class="number" value="3">3</button>
+				<button class="operator" value="+">+</button>
+			</div>
+
+			<div class="row">
+				<button class="number zero-btn" value="0">0</button>
+				<button class="decimal" value=".">.</button>
+				<button class="delete">&#8592;</button>
+				<button class="equal-sign">=</button>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
